@@ -1,3 +1,5 @@
+# Opcion 1
+
 a=["A","N","A"]
 if (a[0]==a[-1]) & (a[1]==a[-2]) & (a[2]==a[-3]):
      ...:     print("Si es anagrama")
@@ -6,3 +8,15 @@ if (a[0]==a[-1]) & (a[1]==a[-2]) & (a[2]==a[-3]):
      ...:
      ...:
 Si es anagrama
+
+# opcion 2
+a="ANA"
+b=a[::-1]
+In [20]: if a==b:
+    ...:     print("Es anagrama")
+    ...:
+    ...: elif a!=b:
+    ...:     print("No es anagrama")
+    ...:
+    ...:
+Es anagrama
