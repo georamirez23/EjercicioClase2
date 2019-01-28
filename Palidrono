@@ -1,6 +1,0 @@
-In [188]: palabra="ave"
-
-In [189]: palabra2=palabra[::1]
-
-In [190]: if palabra==palabra2:
-     ...:     print("Es palidromo")

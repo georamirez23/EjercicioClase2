@@ -1,0 +1,10 @@
+p=["T", "A", "R","T","A"]
+p1=["T", "R", "A","T","A"]
+ p.sort()
+ p1.sort()
+ if p1==p:
+    ...:     print("Anagrama")
+    ...:
+Anagrama
+
+
