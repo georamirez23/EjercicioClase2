@@ -2,21 +2,21 @@
 
 a=["A","N","A"]
 if (a[0]==a[-1]) & (a[1]==a[-2]) & (a[2]==a[-3]):
-     ...:     print("Si es anagrama")
+     ...:     print("Si es palindromo")
      ...:
      ...:
      ...:
      ...:
-Si es anagrama
+Si es palidromo
 
 # opcion 2
 a="ANA"
 b=a[::-1]
 In [20]: if a==b:
-    ...:     print("Es anagrama")
+    ...:     print("Es palindromo")
     ...:
     ...: elif a!=b:
-    ...:     print("No es anagrama")
+    ...:     print("No es palindromo")
     ...:
     ...:
-Es anagrama
+Es palindromo
